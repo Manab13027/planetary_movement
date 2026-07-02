@@ -3,6 +3,7 @@
 node_modules/
 electron-app/public/unity/
 electron-app/dist/
+electron-app/*.tsbuildinfo
 unity-scene/Library/
 unity-scene/Temp/
 unity-scene/Obj/
