@@ -1,0 +1,10 @@
+.superpowers/
+node_modules/
+electron-app/public/unity/
+electron-app/dist/
+unity-scene/Library/
+unity-scene/Temp/
+unity-scene/Obj/
+unity-scene/Build/
+*.log
+.DS_Store
