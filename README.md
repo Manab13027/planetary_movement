@@ -1,20 +1,20 @@
-# Planetary movement
+# Planetary Movement
 
-_TODO: one line on what this project does and who it's for._
+A **cross-platform desktop app that visualises planetary motion** (orbits /
+solar-system movement). Built with Electron, React and TypeScript via
+electron-vite, so it packages into native apps for macOS, Windows and Linux.
 
-**Stack:** Other
+## Stack
+Electron · React · TypeScript · Vite (electron-vite) · electron-builder
 
-## Project structure
-
-```
-docs/
-electron-app/
+## Getting started
+```bash
+cd electron-app
+npm install
+npm run dev          # live development
+# build installers:
+npm run build:mac    # or build:win / build:linux
 ```
 
 ## Notes
-
-_TODO: anything a new user should know — configuration, env vars, known limitations._
-
----
-
-_README scaffolded by readme_gen. Edit the TODOs to finish it._
+- The app source lives in `electron-app/`; see `docs/` for design notes.
